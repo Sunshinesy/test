@@ -13,9 +13,12 @@ For more information about the full official images change lifecycle, see [the "
 For outstanding `php` image PRs, check [PRs with the "library/php" label on the official-images repository](https://github.com/docker-library/official-images/labels/library%2Fphp). For the current "source of truth" for [`php`](https://hub.docker.com/_/php/), see [the `library/php` file in the official-images repository](https://github.com/docker-library/official-images/blob/master/library/php).
 
 ---
+---
+- [syy]
+- [yys]
 
--	[![build status badge](https://img.shields.io/travis/docker-library/php/master.svg?label=Travis%20CI)](https://travis-ci.org/docker-library/php/branches)
--	[![build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/update.sh/job/php.svg?label=Automated%20update.sh)](https://doi-janky.infosiftr.net/job/update.sh/job/php)
+-	[![build status badge](https://img.shields.io/travis/docker-library/php/master.svg?label=Travis%20CI)]
+-	[![build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/update.sh/job/php.svg?label=Automated%20update.sh)]
 
 | Build | Status | Badges | (per-arch) |
 |:-:|:-:|:-:|:-:|
