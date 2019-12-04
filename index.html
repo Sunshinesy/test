@@ -1,12 +1,21 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<title>Sunyanyang'blog</title>
+  <title>Sunshinesy'blog</title>
 </head>
 <body>
-test
+  <h1>我的博客</h1>
+  <p id="hello">点击此处</p>
+  <p onclick="hello()">点击弹出消息</p>
+  <a href="" οnclick="hello()">我是a标签</a>
 </body>
-<script>
-alert("hello");
-</script>
-</html>
+  <script>
+  function hello(){
+    alert("hello blog!");
+  }
+  $("#hello").click(function(){
+    alert("hello blog!");
+  });
+  </script>
+ </html>
